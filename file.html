@@ -1,0 +1,100 @@
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="jesila">
+    <meta name="keywords" content="techbinos, institute, course in thanjavur">
+    <meta name="description" content="this is a website">
+    <link rel="shortcut icon" href="day.png" type="image/png">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(57, 57, 85);
+            
+            text-align: center;
+            font-size: 35px;
+            color: rgb(245, 36, 36);
+        }
+
+        nav{
+             flex: 1;
+             -webkit-flex:1;
+             -ms-flex: 1;
+            background-color: aqua;
+            padding: 20px;
+        }
+
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        article{
+            flex: 3;
+            -webkit-flex:3;
+            -ms-flex: 3;
+            background-color: aquamarine;
+            height: 300px;
+        }
+        
+        section{
+            display: flex;
+            display: -webkit-flex;
+        }
+        footer{
+            background-color: bisque;
+            padding: 10px;
+            text-align: center;
+            color: blue;
+        }
+         @media (max-width: 500px) {
+           section{
+                flex-direction: column;
+                -webkit-flex-direction:column;
+
+            }
+           
+         }
+         @media (max-width: 300px) {
+             h2{
+                background-color: black;
+            }
+         }
+    </style>
+ </head>
+ <body>
+    <h2>layout</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates libero minima suscipit, modi et, amet distinctio tenetur commodi iure debitis adipisci aspernatur laboriosam voluptatum consequuntur. Soluta reprehenderit pariatur eos!
+
+    </p>
+
+    <header>
+        <h2>Countries</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">india</a>
+                </li> 
+               <li><a href="#">usa</a>
+                </li>
+                <li><a href="#">uae</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>India</h1>
+            <p>india is my country. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, laudantium? Omnis quaerat atque debitis, officia earum ipsum obcaecati recusandae provident eum tenetur quis officiis, fugiat impedit et voluptas porro neque?</p>
+        
+        </article>
+        
+    </section>
+
+    <footer>
+        <p>footer</p>
+        <address>no 1,k.k. nagar</address>
+    </footer>
+ </body>
+ </html>
